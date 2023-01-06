@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>welcome</title>
+</head>
+<body>
+<h1>Welcome to IPE</h1>
+
+<p>Things</p>
+<ul>
+    {% for thing in num_things %}
+
+    <li> <a href="things/{num_things.id}"/> {num_things.title}</li>
+
+    {% endfor%}
+
+</ul>
+
+
+
+
+</body>
+</html>
